@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SelecteazaAltMedicament">
+   <children>
+      <Label layoutX="195.0" layoutY="29.0" text="Acest medicament nu exista in farmacie" />
+      <Label layoutX="52.0" layoutY="103.0" text="Selecteaza alt medicament" />
+      <ComboBox layoutX="52.0" layoutY="141.0" prefHeight="25.0" prefWidth="248.0" />
+      <Label layoutX="52.0" layoutY="200.0" text="Cantitate" />
+      <TextField layoutX="52.0" layoutY="244.0" prefHeight="7.0" prefWidth="248.0" promptText="cantitate" />
+      <Button layoutX="60.0" layoutY="361.0" mnemonicParsing="false" text="Adauga medicament" />
+      <Button layoutX="256.0" layoutY="361.0" mnemonicParsing="false" text="Adauga alt medicament" />
+      <Button layoutX="451.0" layoutY="361.0" mnemonicParsing="false" text="Anuleaza comanda" />
+   </children>
+</AnchorPane>
